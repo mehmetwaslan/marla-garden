@@ -162,4 +162,5 @@
 @media(min-width:801px) and (max-width:1100px){html body .site-header.site-header.site-header{left:43px!important;right:43px!important}html body .site-header .brand{width:120px!important}}
 .drawing-hero .editorial-photo-shade{background:linear-gradient(0deg,rgba(247,245,240,.96),rgba(247,245,240,.75) 28%,rgba(247,245,240,0) 58%)}
 .drawing-hero .editorial-photo-copy,.drawing-hero .editorial-photo-copy h1,.drawing-hero .editorial-photo-copy .eyebrow,.drawing-hero .hero-image-note{color:#4f3d31}
-@media(min-width:801px){.drawing-hero{padding-top:0}}
+html body .editorial-photo-hero.drawing-hero>img{aspect-ratio:2400/1050!important;object-fit:contain!important}
+@media(min-width:801px){html body .drawing-hero{padding-top:0;padding-bottom:clamp(170px,15vw,230px)}html body .drawing-hero .editorial-photo-shade{display:none}html body .drawing-hero .editorial-photo-copy{bottom:clamp(28px,3vw,48px)}}
