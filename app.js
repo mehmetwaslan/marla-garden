@@ -79,3 +79,5 @@ function updateWhatsAppBrief(){
 }
 enquiryForm?.addEventListener('input',updateWhatsAppBrief);
 enquiryForm?.addEventListener('change',updateWhatsAppBrief);
+document.querySelectorAll('.nav-group-toggle').forEach(b=>b.addEventListener('click',()=>{const g=b.parentElement,o=!g.classList.contains('open');g.classList.toggle('open',o);b.setAttribute('aria-expanded',String(o))}));
+document.addEventListener('click',e=>{document.querySelectorAll('.nav-group.open').forEach(g=>{if(!g.contains(e.target)){g.classList.remove('open');g.querySelector('.nav-group-toggle')?.setAttribute('aria-expanded','false')}})});
