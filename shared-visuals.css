@@ -163,4 +163,4 @@
 .drawing-hero .editorial-photo-shade{background:linear-gradient(0deg,rgba(247,245,240,.96),rgba(247,245,240,.75) 28%,rgba(247,245,240,0) 58%)}
 .drawing-hero .editorial-photo-copy,.drawing-hero .editorial-photo-copy h1,.drawing-hero .editorial-photo-copy .eyebrow,.drawing-hero .hero-image-note{color:#4f3d31}
 html body .editorial-photo-hero.drawing-hero>img{aspect-ratio:2400/1050!important;object-fit:contain!important}
-@media(min-width:801px){html body .drawing-hero{padding-top:0;padding-bottom:clamp(170px,15vw,230px)}html body .drawing-hero .editorial-photo-shade{display:none}html body .drawing-hero .editorial-photo-copy{bottom:clamp(28px,3vw,48px)}}
+@media(min-width:801px){html body .drawing-hero{padding-top:0;padding-bottom:clamp(240px,19vw,300px)}html body .drawing-hero .editorial-photo-shade{display:none}html body .drawing-hero .editorial-photo-copy{bottom:clamp(28px,3vw,48px)}}
