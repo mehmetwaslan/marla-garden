@@ -157,3 +157,6 @@
 .site-header .nav-group:hover .nav-group-menu,.site-header .nav-group:focus-within .nav-group-menu,.site-header .nav-group.open .nav-group-menu{display:flex;top:calc(100% + 12px)}}
 @media(max-width:1100px){.site-header .nav-group-toggle{font-size:12px}}
 @media(max-width:800px){.site-header .nav-group{display:block;width:100%}.site-header .nav-group-toggle{display:block;padding:14px 0;font-size:13px}.site-header .nav-group-toggle:after{display:none}.site-header .nav-group-menu{display:flex;flex-direction:column;padding-left:14px;border-left:1px solid #dcd3c6}.site-header .nav-group-menu a{padding:10px 0!important}}
+/* one header position on every page (matches the home page) */
+@media(min-width:801px){html body .site-header.site-header.site-header{top:42px!important;left:60px!important;right:60px!important;height:auto!important;align-items:center!important;transform:none!important}html body .site-header .brand{position:static!important;transform:none!important;width:140px!important;height:auto!important}html body .site-header #navigation{position:static!important;align-self:center!important;margin:0 0 0 auto!important}}
+@media(min-width:801px) and (max-width:1100px){html body .site-header.site-header.site-header{left:43px!important;right:43px!important}html body .site-header .brand{width:120px!important}}
