@@ -123,7 +123,7 @@
 .project-drawings .dossier-single-sheet{grid-template-columns:minmax(0,1040px);justify-content:center}
 
 .service-stages{padding:0}
-.studio-opening{padding-top:clamp(128px,15vw,185px);background:#f7f5f0}
+.studio-opening{padding-top:clamp(48px,6vw,80px);background:#f7f5f0}
 .studio-opening .studio-heading{padding-top:0;padding-bottom:32px}
 .studio-heading .lead,.studio-story{max-width:72ch}
 .studio-opening figure,.studio-sheet{margin:0}
@@ -160,3 +160,6 @@
 /* one header position on every page (matches the home page) */
 @media(min-width:801px){html body .site-header.site-header.site-header{top:42px!important;left:60px!important;right:60px!important;height:auto!important;align-items:center!important;transform:none!important}html body .site-header .brand{position:static!important;transform:none!important;width:140px!important;height:auto!important}html body .site-header #navigation{position:static!important;align-self:center!important;margin:0 0 0 auto!important}}
 @media(min-width:801px) and (max-width:1100px){html body .site-header.site-header.site-header{left:43px!important;right:43px!important}html body .site-header .brand{width:120px!important}}
+.drawing-hero .editorial-photo-shade{background:linear-gradient(0deg,rgba(247,245,240,.96),rgba(247,245,240,.75) 28%,rgba(247,245,240,0) 58%)}
+.drawing-hero .editorial-photo-copy,.drawing-hero .editorial-photo-copy h1,.drawing-hero .editorial-photo-copy .eyebrow,.drawing-hero .hero-image-note{color:#4f3d31}
+@media(min-width:801px){.drawing-hero{padding-top:0}}
