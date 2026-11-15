@@ -145,3 +145,5 @@
 .model-story-rich p{line-height:1.7}
 .model-story-rich a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:900px){.model-story.model-story-rich{grid-template-columns:1fr;gap:8px}}
+.guide-body h2{margin-top:48px}.guide-body ul,.guide-body ol{padding-left:22px;margin:0 0 26px}.guide-body li{font-size:17px;line-height:1.75;color:var(--muted,#5b5148);margin:0 0 10px}.guide-body strong{color:#2b2620;font-weight:500}
+.guide-faq{margin-top:56px;border-top:1px solid rgba(75,84,67,.2);padding-top:36px}.guide-faq details{border-bottom:1px solid rgba(75,84,67,.2);padding:18px 0}.guide-faq summary{cursor:pointer;font-size:18px;line-height:1.5;list-style:none;color:#2b2620}.guide-faq summary::-webkit-details-marker{display:none}.guide-faq summary:after{content:"+";float:right;margin-left:16px}.guide-faq details[open] summary:after{content:"–"}.guide-faq details p{margin:12px 0 0}
