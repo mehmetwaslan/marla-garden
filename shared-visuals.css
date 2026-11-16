@@ -164,3 +164,11 @@
 .drawing-hero .editorial-photo-copy,.drawing-hero .editorial-photo-copy h1,.drawing-hero .editorial-photo-copy .eyebrow,.drawing-hero .hero-image-note{color:#4f3d31}
 html body .editorial-photo-hero.drawing-hero>img{aspect-ratio:2400/1050!important;object-fit:contain!important}
 @media(min-width:801px){html body .drawing-hero{padding-top:0;padding-bottom:clamp(240px,19vw,300px)}html body .drawing-hero .editorial-photo-shade{display:none}html body .drawing-hero .editorial-photo-copy{bottom:clamp(28px,3vw,48px)}}
+.journal-group{padding-top:clamp(24px,3vw,40px)}
+.journal-group-title{font:700 clamp(24px,2.4vw,34px)/1.15 Figtree,sans-serif;color:#664d3e;margin:0 0 24px}
+html body .journal-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:32px 24px!important}
+html body .journal-grid .model-card-image img{aspect-ratio:3/2!important;height:auto!important;object-fit:cover!important}
+html body .journal-grid .model-card-copy h2{font-size:clamp(18px,1.5vw,22px)!important;line-height:1.25!important}
+html body .journal-grid .model-card-copy p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:.95rem}
+@media(max-width:1000px){html body .journal-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:640px){html body .journal-grid{grid-template-columns:1fr!important}}
