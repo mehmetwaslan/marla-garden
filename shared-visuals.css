@@ -172,3 +172,5 @@ html body .journal-grid .model-card-copy h2{font-size:clamp(18px,1.5vw,22px)!imp
 html body .journal-grid .model-card-copy p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:.95rem}
 @media(max-width:1000px){html body .journal-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:640px){html body .journal-grid{grid-template-columns:1fr!important}}
+html body .journal-grid .model-card-image{aspect-ratio:3/2!important;height:auto!important;overflow:hidden}
+html body .journal-grid .model-card-image img{width:100%!important;height:100%!important}
