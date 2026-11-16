@@ -174,3 +174,4 @@ html body .journal-grid .model-card-copy p{display:-webkit-box;-webkit-line-clam
 @media(max-width:640px){html body .journal-grid{grid-template-columns:1fr!important}}
 html body .journal-grid .model-card-image{aspect-ratio:3/2!important;height:auto!important;overflow:hidden}
 html body .journal-grid .model-card-image img{width:100%!important;height:100%!important}
+.guide-figure{margin:36px 0 40px}.guide-figure img{width:100%;height:auto;display:block;background:#eee9df}.guide-figure figcaption{font:400 13px/1.5 Jost,sans-serif;color:#7a6a5c;padding-top:10px}.guide-figure figcaption a{text-decoration:underline;text-underline-offset:3px}
